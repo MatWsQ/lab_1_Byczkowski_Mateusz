@@ -14,10 +14,9 @@ public class Main {
         System.out.print("Podaj numer Indeksu:");
         int nr_indeksu = scan.nextInt();
 
-        System.out.println("Imie: "+imie);
-        System.out.println("Nazwisko: "+nazwisko);
-        System.out.println("Wiek: "+wiek);
-        System.out.println("Numer Indeksu: "+nr_indeksu);
+        System.out.printf("Imie:  %s Naziwsko: %s ", imie, nazwisko );
+        System.out.println("Wiek: "+wiek + " "+ "Numer Indeksu: "+nr_indeksu);
+
 
         System.out.println(" ");
         System.out.println("Podaj 1 liczbę: ");
